@@ -4,10 +4,10 @@ export const Transaction = () => {
   return (
     <div>
       <h3>History</h3>
-      <ul id="list" class="list">
-        <li class="minus">
+      <ul className="list">
+        <li className="minus">
           現金 <span>-40000円</span>
-          <button class="delete-btn">x</button>
+          <button className="delete-btn">x</button>
         </li>
       </ul>
     </div>
